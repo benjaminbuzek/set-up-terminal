@@ -4,7 +4,7 @@ This repository provides a setup guide for my minimalist and efficient macOS ter
 
 ![Screenshot](screenshot.png "Terminal Screenshot")
 
-## Dependencies / Requirements
+## 📦 Dependencies / Requirements
 
 * [Homebrew](https://brew.sh/)
 * [iTerm2](https://iterm2.com/)
@@ -31,7 +31,7 @@ Under `Settings > Profiles > Text` change the font to `SF Mono` and use size `13
 
 Install the Theme.
 
-```
+```zsh
 (curl -Ls https://raw.githubusercontent.com/benjaminbuzek/set-up-terminal/main/set-up-terminal-minimal.itermcolors > /tmp/set-up-terminal-minimal.itermcolors && open /tmp/set-up-terminal-minimal.itermcolors)
 ```
 
