@@ -27,7 +27,15 @@ Under `Settings > Appearance > General > Theme` change the theme to `Minimal`.
 
 Under `Settings > Advanced` set the field "In the Minimal theme, how prominent should the tab outline be?" to `0`.
 
-Under `Settings > Profiles > Text` change the font to `SF Mono` and use size `13`. You can get the SF Mono font from [here](https://developer.apple.com/fonts/).
+Under `Settings > Profiles > Text` change the font to `SF Mono` and use size `13`.
+
+Install the Theme.
+
+```
+(curl -Ls https://raw.githubusercontent.com/benjaminbuzek/set-up-terminal/main/set-up-terminal-minimal.itermcolors > /tmp/set-up-terminal-minimal.itermcolors && open /tmp/set-up-terminal-minimal.itermcolors)
+```
+
+More themes can be found at https://iterm2colorschemes.com/. To use the following command with your chosen theme, simply replace the link.
 
 ## ⚙️ Configure zsh
 
